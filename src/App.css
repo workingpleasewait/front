@@ -1,0 +1,58 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  color: #333;
+  font-size: 28px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row; /* Change this to row */
+  width: 80%;
+  justify-content: space-between; /* Optional, to add space between chat and sponsored links */
+}
+
+.chat-section {
+  border: 2px solid #ccc;
+  width: 60%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-window {
+  flex-grow: 1;
+  overflow-y: auto;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.sponsored-links {
+  border: 2px solid #ccc;
+  width: 40%;
+  height: 500px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sponsored-links h2 {
+  font-size: 18px;
+}
+
+.sponsored-links-box {
+  border: 2px solid #ccc;
+  padding: 10px;
+  height: calc(100% - 90px);
+}
